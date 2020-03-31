@@ -24,7 +24,7 @@ networks with a single line of Python code, and then easily analyze and
 visualize them:
 
 ```python
-import osmnx as ox
+import miniosmnx as ox
 G = ox.graph_from_place('Manhattan Island, New York City, New York, USA', network_type='drive')
 ox.plot_graph(G)
 ```
